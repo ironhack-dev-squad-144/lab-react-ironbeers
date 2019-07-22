@@ -1,0 +1,69 @@
+$primary: #2eb3ec;
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Home {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+.HomeButton {
+  display: block;
+  margin-bottom: 40px;
+}
+.HomeButton, .HomeButton:hover {
+  color: black;
+  text-decoration: none;
+}
+.HomeButton__img {
+  width: 100%;
+}
+.HomeButton__text {
+  padding: 10px 20px;
+}
+.HomeButton__children {
+  color: #666666;
+}
+
+.Header {
+  display: block;
+  background-color: $primary;
+  text-align: center;
+  padding: 10px;
+}
+.Header__home-img {
+  height: 35px;
+}
+
+.beer-card, .beer-card:hover {
+  display: flex;
+  margin: 30px 20px;
+  color: black;
+  text-decoration: none;
+}
+.beer-card__img {
+  height: 100px;
+  width: 50px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.BeerDetail__img {
+  height: 100px;
+  margin: auto;
+}
